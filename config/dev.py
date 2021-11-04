@@ -45,10 +45,10 @@ DEBUG = True
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.mysql",
-        "NAME": APP_CODE,  # noqa
+        "NAME": "testlee",  # noqa
         "USER": "root",
-        "PASSWORD": "",
-        "HOST": "localhost",
+        "PASSWORD": "123456",
+        "HOST": "192.168.2.11",
         "PORT": "3306",
     },
 }

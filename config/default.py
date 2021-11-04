@@ -10,7 +10,8 @@ Unless required by applicable law or agreed to in writing, software distributed 
 an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the
 specific language governing permissions and limitations under the License.
 """
-
+import os
+import sys
 from blueapps.conf.default_settings import *  # noqa
 from blueapps.conf.log import get_logging_config_dict
 
@@ -31,6 +32,9 @@ from blueapps.conf.log import get_logging_config_dict
 #     'blueapps.account',
 # )
 
+APP_ID = 'testlee'
+APP_TOKEN = '99d057fb-76ea-4a87-a601-96c7d7ff54bb'
+BK_PASS_HOST = 'http://paas.bktencent.com/'
 # 请在这里加入你的自定义 APP
 INSTALLED_APPS += (  # noqa
     "home_application",
