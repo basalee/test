@@ -39,6 +39,7 @@ BK_PASS_HOST = 'http://paas.bktencent.com/'
 INSTALLED_APPS += (  # noqa
     "home_application",
     "mako_application",
+    "iwork",
 )
 
 # 这里是默认的中间件，大部分情况下，不需要改动
